@@ -24,6 +24,10 @@ public class Customer {
 		super();
 		// TODO Auto-generated constructor stub
 	}
+	@Override
+	public String toString() {
+		return "Customer [id=" + id + ", name=" + name + "]";
+	}
 	
 
 }
